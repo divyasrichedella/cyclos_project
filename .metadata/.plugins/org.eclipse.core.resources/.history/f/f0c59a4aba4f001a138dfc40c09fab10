@@ -1,0 +1,8 @@
+create table advertisement(
+SendMembername varchar(50)),
+SendTitle varchar(50)),
+SendPrice int(10)),
+SendUserName varchar(50));
+
+insert into advertisement values("divya", "good" , "7", "sri"); 
+insert into advertisement values("sri", "excellent" , "8", "divya"); 

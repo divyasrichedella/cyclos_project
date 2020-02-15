@@ -1,0 +1,9 @@
+create table login(
+FullName varchar(50) not null,
+sendMembername varchar(50);
+sendTitle varchar(50);
+sendPrice int(10);
+sendUserName varchar(50)
+
+insert into login values("admin", "admin@123"); 
+insert into login values("naveen", "testing@123"); 

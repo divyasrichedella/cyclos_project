@@ -1,0 +1,58 @@
+package com.training.bean;
+
+/**
+ * 
+ * @author Naveen
+ * @see this class shall get the bean data 
+ */
+public class DBBean {
+	private String sendMembername; 
+	private String sendTitle; 
+	private String sendPrice; 
+	private String sendUserName;
+	
+	public DBBean(){}
+	
+	public DBBean(String url, String driver, String userName, String password) {
+		super();
+		this.sendMembername = sendMembername;
+		this.sendTitle = sendTitle;
+		this.sendPrice = sendPrice;
+		this.sendUserName = sendUserName;
+	}
+
+	public String getSendMembername() {
+		return sendMembername;
+	}
+
+	public void setSendMembername(String sendMembername) {
+		this.sendMembername = sendMembername;
+	}
+
+	public String getSendTitle() {
+		return sendTitle;
+	}
+
+	public void setSendTitle(String sendTitle) {
+		this.sendTitle = sendTitle;
+	}
+
+	public String getSendPrice() {
+		return sendPrice;
+	}
+
+	public void setSendPrice(String sendPrice) {
+		this.sendPrice = sendPrice;
+	}
+
+	public String getSendUserName() {
+		return sendUserName;
+	}
+
+	public void setSendUserName(String sendUserName) {
+		this.sendUserName = sendUserName;
+	}
+	
+	
+	
+}

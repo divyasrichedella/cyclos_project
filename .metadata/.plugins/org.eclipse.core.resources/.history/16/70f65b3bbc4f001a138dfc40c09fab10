@@ -1,0 +1,37 @@
+package com.training.bean;
+
+public class LoginBean {
+	private String sendMembername;
+	private String sendTitle;
+
+	public LoginBean() {
+	}
+
+	public LoginBean(String memberName, String title) {
+		super();
+		this.sendMembername = sendMembername;
+		this.sendTitle = sendTitle;
+	}
+
+	public String getSendMembernamee() {
+		return sendMembername;
+	}
+
+	public void setSendMembername(String memberName) {
+		this.sendMembername = sendMembername;
+	}
+
+	public String getsendTitle() {
+		return sendTitle;
+	}
+
+	public void setsendTitle(String title) {
+		this.sendTitle = sendTitle;
+	}
+
+	@Override
+	public String toString() {
+		return "LoginBean [userName=" + sendMembername + ", password=" + sendTitle + "]";
+	}
+
+}
